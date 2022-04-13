@@ -29,8 +29,8 @@ def sol(arr) :
                 
         elif arr[i] < arr[i-1] :
             if arr[i] * (len(stack)+1) > max_area :
-            max_area = arr[i] * len(stack)
-            stack.append(arr[i])
+                max_area = arr[i] * len(stack)
+                stack.append(arr[i])
 
 
 
